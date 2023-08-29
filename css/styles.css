@@ -10,13 +10,13 @@ body {
 
 /* Header */
 header {
-    background-color: var(--bs-secondary);
-    color: white;
+    background-color: var(--bs-secondary); /* Black background */
+    color: var(--bs-primary); /* White text */
 }
 
 /* Navigation */
 nav ul li a {
-    color: white;
+    color: var(--bs-primary); /* White links */
 }
 
 .customer-portal-link {
@@ -26,22 +26,22 @@ nav ul li a {
 
 .customer-portal-link:hover {
     background-color: var(--bs-primary);
-    color: white;
+    color: var(--bs-secondary); /* Black text on hover */
 }
 
 /* Card Styles */
 .card {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-secondary); /* Black background */
     border: none;
 }
 
 .card-title,
 .card-text {
-    color: white;
+    color: var(--bs-primary); /* White text */
 }
 
 /* Additional styles for sections, footer, social links, etc. */
 .social-link {
-    color: white;
+    color: var(--bs-primary); /* White links */
     margin: 0 10px;
 }
