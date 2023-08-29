@@ -7,11 +7,18 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
 }
+
 /* Custom CSS variables */
 :root {
     --bs-primary: white; /* White for text and links */
     --bs-secondary: black; /* Black for background */
     /* ... other color variables ... */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 4rem; /* Basic size */
+    transition: font-size 0.2s; /* Smooth transition on hover */
 }
 
 /* Header */
@@ -24,6 +31,9 @@ header {
 nav ul li a {
     color: var(--bs-primary); /* White links */
 }
+
+/* ... rest of your CSS styles ... */
+
 
 .customer-portal-link {
     color: var(--bs-primary);
