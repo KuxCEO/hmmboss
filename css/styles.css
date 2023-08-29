@@ -21,6 +21,11 @@ body {
     transition: font-size 0.2s; /* Smooth transition on hover */
 }
 
+/* Bootstrap-style hover effect for the logo */
+.logo-hover {
+    font-size: 5rem; /* Enlarged size on hover */
+}
+
 /* Header */
 header {
     background-color: var(--bs-secondary); /* Black background */
@@ -33,6 +38,7 @@ nav ul li a {
 }
 
 /* ... rest of your CSS styles ... */
+
 
 
 .customer-portal-link {
