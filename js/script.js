@@ -16,18 +16,13 @@ window.addEventListener('load', function () {
     });
 
     const logo = document.querySelector('.logo');
-    const fullSize = '5rem'; // Full size on hover
-    const basicSize = '4rem'; // Basic size
-
-    logo.style.fontSize = basicSize;
 
     logo.addEventListener('mouseover', function () {
-        logo.style.transition = 'font-size 0.2s'; // Adding a transition for smooth effect
-        logo.style.fontSize = fullSize;
+        logo.classList.add('logo-hover'); // Add class for hover effect
     });
 
     logo.addEventListener('mouseout', function () {
-        logo.style.fontSize = basicSize;
+        logo.classList.remove('logo-hover'); // Remove class for normal size
     });
 
     // Additional JavaScript functionality if needed
