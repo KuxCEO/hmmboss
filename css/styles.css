@@ -7,6 +7,12 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
 }
+/* Custom CSS variables */
+:root {
+    --bs-primary: white; /* White for text and links */
+    --bs-secondary: black; /* Black for background */
+    /* ... other color variables ... */
+}
 
 /* Header */
 header {
