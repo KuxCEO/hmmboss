@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: var(--bs-secondary);
+    color: white;
+}
+
+/* Navigation */
+nav ul li a {
+    color: white;
+}
+
+.customer-portal-link {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.customer-portal-link:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--bs-primary);
+    border: none;
+}
+
+.card-title,
+.card-text {
+    color: white;
+}
+
+/* Additional styles for sections, footer, social links, etc. */
+.social-link {
+    color: white;
+    margin: 0 10px;
+}
